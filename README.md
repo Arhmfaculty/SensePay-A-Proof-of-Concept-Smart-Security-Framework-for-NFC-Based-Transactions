@@ -23,7 +23,7 @@ This research-driven project demonstrates a viable **proof-of-concept** implemen
 ---
 
 ##  System Architecture
-
+```
 Payment Device
 ├── PN532 NFC Module
 ├── MPU6050 IMU Sensor
@@ -35,7 +35,7 @@ POS Terminal
 ├── ESP32-S3
 │ └── Model Inference (fraudModel.h)
 └── TFT LCD Display for Orientation Prompt & Feedback
-
+```
 ---
 ```
 ## 📂 Repository Structure
