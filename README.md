@@ -37,7 +37,7 @@ POS Terminal
 └── TFT LCD Display for Orientation Prompt & Feedback
 
 ---
-
+```
 ## 📂 Repository Structure
 
 SensePay/
@@ -62,7 +62,7 @@ SensePay/
 ├── presentation/
 │ └── SensePay_Capstone_Slides.pdf
 └── README.md
-
+```
 ---
 
 ## Experimental Results
