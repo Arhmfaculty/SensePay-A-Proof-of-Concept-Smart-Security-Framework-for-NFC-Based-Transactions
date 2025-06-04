@@ -42,23 +42,15 @@ POS Terminal
 
 SensePay/
 ├── firmware/
-│ ├── card_device/
-│ │ └── main.ino # Code for payment device (IMU + NFC + AES)
+│ ├── Card_emulator/
+│ │ └── Card_emulator.ino # Code for payment device (IMU + NFC + AES)
 │ ├── pos_terminal/
-│ │ └── terminal.ino # Code for POS terminal (decryption + inference)
+│ │ └── POS_terminal.ino # Code for POS terminal (decryption + inference)
 │ └── fraudModel.h # C-array of trained TFLite model
 ├── ml_model/
-│ ├── ocsvm_train.ipynb # Model training and tuning (Python)
-│ ├── autoencoder_train.ipynb
-│ └── model.tflite # Optimized TFLite model for deployment
+│ ├── train_model.ipynb # Model training and tuning (Python)
 ├── data/
 │ └── orientation_logs.csv # Collected sensor data (Yaw, Pitch, Roll, Response Time)
-├── hardware/
-│ ├── schematics/ # Fritzing + PDF schematics
-│ ├── images/
-│ └── 3D_printables/ # Optional enclosures
-├── simulation/
-│ └── wokwi_simulation.json
 ├── presentation/
 │ └── SensePay_Capstone_Slides.pdf
 └── README.md
@@ -112,6 +104,6 @@ Integrate with existing EMV RRP protocols for hybrid verification.
 
 ## 👨‍🔬 Author
 Maxwell Bosiako Antwi
-B.Sc. Computer Engineering (2025)
-Ashesi University
-📧 maxwellantwibosiako@domain.com
+|| B.Sc. Computer Engineering (2025)
+|| Ashesi University
+|| maxwellantwibosiako@gmail.com
